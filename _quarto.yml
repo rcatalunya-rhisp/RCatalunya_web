@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: docs
+  
+highlight-style: ayu
+code-annotations: hover
+
+website:
+  page-navigation: false
+  title: "Comunitat R Catalunya"
+  description: "Asociació d'usuaris de R de Catalunya"
+  site-url: "https://rhisp.github.io/Rhisp_web/"
+  repo-url: https://github.com/rhisp/Rhisp_web
+  repo-actions: [edit, issue]
+  favicon: 'images/logo_RCatalunya_reducido.jpeg'
+  
+  open-graph: true
+
+  # twitter-card:
+  #  creator: "@R_Hisp"
+  #  image: "images/logo_twitter.png"
+
+  page-footer:
+    right: |
+      ![](images/logo_RCatalunya_reducido.jpeg){width=10%}
+    left: "Comunitat R Catalunya"
+  
+  navbar:
+    logo: "images/logo_RCatalunya_reducido.jpeg"
+    tools: 
+      - icon: github
+        href: https://github.com/rcatalunya-rhisp
+    #  - icon: twitter
+    #    href: https://twitter.com/R_Hisp
+        
+    left:
+      - text: QUI SOM
+        href: quienes-somos.qmd 
+      - text: FES-TE SOCI/A
+        href: hazte_socia.qmd 
+      - text: BLOG
+        href: blog.qmd
+      # - text: CONTACTE
+      #   href: contacto.qmd
+
+  sidebar:
+    - id: ""
+    
+format:
+  html:
+    theme: [flatly, theme-light.scss]
+    code-copy: true
+    code-overflow: wrap
+    toc: false
+
+
+freeze: auto
+
+editor: visual
+
+

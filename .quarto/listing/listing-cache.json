@@ -1,0 +1,19 @@
+{
+  "listingMap": {
+    "index.qmd": [
+      "empleo_post/**/*.qmd",
+      "formacion_post/**/*.qmd",
+      "jornadas_post/*.qmd",
+      "blog/**/*.qmd"
+    ],
+    "blog.qmd": [
+      "blog/"
+    ],
+    "formacion_post.qmd": [
+      "formacion_post/**/*.qmd"
+    ],
+    "Jornadas_post.qmd": [
+      "jornadas_post/"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+---
+page-layout: full
+format: 
+  html:
+    css: styles.css
+---
+
+# Web de la comunitat de R Catalunya
+
+![](https://media.istockphoto.com/id/1389125114/es/foto/senderos-ligeros-en-british-countryside-road-peak-district-reino-unido.jpg?s=612x612&w=0&k=20&c=afdeF9CXvP_3cPoORNLcywRXqLrwbaQD6aF89PcLJF4=){fig-align="center"}
+
+## **Benvinguda a la Comunitat de R a Catalunya**
+
+Benvinguts i benvingudes a la comunitat de R a Catalunya! 🌟
+
+Aquest espai està pensat per a reunir i connectar a totes les persones, tant de perfils tècnics com no tècnics, que treballen o tenen interès en el llenguatge R a qualsevol racó de Catalunya. La nostra missió és crear un lloc inclusiu, col·laboratiu i enriquidor on compartir coneixements, projectes i experiències relacionades amb R.
+
+Un cop al mes organitzem reunions en línia de màxim 2 hores, on explorarem temes diversos i d'actualitat, sempre amb l'aplicació del llenguatge R com a fil conductor. Tant si ets un/a expert/a com si tot just comences, aquí trobaràs un espai on aprendre, inspirar-te i col·laborar amb altres persones apassionades per R.
+
+Uneix-te a nosaltres i ajuda'ns a construir una comunitat vibrant i dinàmica! 🚀
+
+**T’hi esperem!** 😊
+
+## Últims posts
+
+---
+listing:
+  contents:
+        - "blog/**/*.qmd"
+  type: grid
+  sort: "date desc"
+  sort-ui: true
+  max-items: 7
+  filter-ui: true
+  fields: [date, title, reading-time, description, categories, image]
+  categories: true
+  feed: true
+  image-placeholder: "images/logo_twitter_small.png"
+page-layout: full
+title-block-banner: true
+page-navigation: true
+---
